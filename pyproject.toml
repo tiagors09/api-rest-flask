@@ -1,0 +1,17 @@
+[project]
+name = "api-rest-flask"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Tiago Rodrigues Sousa",email = "tiagorodriguessousa9@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask (>=3.1.1,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
